@@ -263,7 +263,7 @@ a{
 .auth {
   white-space: nowrap;
   display: flex;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 
 
@@ -2510,3 +2510,4 @@ a{
     border-radius: 60px;
   }
 }
+
