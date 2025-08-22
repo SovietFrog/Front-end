@@ -148,6 +148,11 @@ body {
   overflow: auto;
 }
 
+a{
+  text-decoration: none;
+  color:rgba(161, 163, 166, 1);
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -186,7 +191,7 @@ body {
 }
 
 .logo {
-  width: 149px;
+  width: 179px;
 }
 
 .tab {
@@ -207,8 +212,6 @@ body {
 }
 
 .tab a {
-  color: rgba(161, 163, 166, 1);
-  text-decoration: none;
   font-weight: 600;
   font-size: 14px;
   line-height: 120%;
