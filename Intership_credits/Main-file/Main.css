@@ -136,13 +136,8 @@ white-space: nowrap;
   letter-spacing: 0px;
 }
 
-.active-tab-link a{
-color: black;
-text-decoration: none;
-font-weight: 600;
-font-size: 14px;
-line-height: 120%;
-letter-spacing: 0px;
+.tab .active-tab-link {
+  color: black;
 }
 
 .tab a:hover{
@@ -2432,3 +2427,4 @@ border-radius: 60px;
   border-radius: 60px;
 }
 }
+
