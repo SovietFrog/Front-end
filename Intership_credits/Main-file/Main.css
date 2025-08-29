@@ -66,6 +66,7 @@ body {
   background-color: rgb(255, 255, 255, 1);
   color: rgba(28, 29, 34, 1);
   font-size: 18px;
+  overscroll-behavior: none;
 }
 
 a {
@@ -1296,3 +1297,4 @@ button {
     width: 100%;
   }
 }
+
