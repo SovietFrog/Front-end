@@ -985,7 +985,7 @@ button {
 
   .top-header {
     max-width: 767px;
-    padding: 15px 10px;
+    padding: 15px 20px;
   }
 
   .logo {
@@ -1247,6 +1247,7 @@ button {
 
   .purple-registry {
     max-width: 767px;
+    width: 100%;
     background: url(../Images/bgimg.svg),
       linear-gradient(69.47deg, #6260b7 10.09%, #9379cf 83.62%);
     background-position: top 40% left 30%, center;
@@ -1258,7 +1259,8 @@ button {
   }
 
   .about-companies {
-    max-width: 470px;
+    max-width: 500px;
+    width: 100%;
   }
 
   .about-companies p {
@@ -1268,12 +1270,14 @@ button {
 
   .members {
     align-items: start;
-    max-width: 400px;
+    max-width: 500px;
+    width: 100%;
     gap: 20px;
   }
 
   .members-credit {
-    max-width: 420px;
+    max-width: 350px;
+    width: 100%;
     font-size: 12px;
   }
 
@@ -1288,6 +1292,7 @@ button {
   .registry-btn {
     margin-top: 200px;
     max-width: 750px;
+    height: 35px;
     width: 100%;
   }
 }
