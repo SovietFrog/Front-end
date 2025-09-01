@@ -365,6 +365,17 @@ button {
   margin: auto;
 }
 
+.grid{
+  display: grid;
+  grid-template-areas: 
+  "header header"
+  "partners card";
+  gap: 0 100px;
+}
+
+.frame-description{
+  grid-area: header;
+}
 
 .frame-description-text {
   position: relative;
@@ -393,13 +404,6 @@ button {
   background: url(../Images/plus.svg);
 }
 
-.presentation-block {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  gap: 50px;
-}
-
 .tablet-text {
   display: none;
 }
@@ -416,6 +420,7 @@ button {
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+  grid-area: partners;
 }
 
 .partner {
@@ -477,6 +482,7 @@ button {
   border-radius: 30px;
   padding: 40px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  grid-area: card;
 }
 
 .card-content {
@@ -751,6 +757,16 @@ button {
     padding: 60px 32px;
   }
 
+  .grid{
+    gap: 40px 100px;
+  }
+
+  .frame-description-text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
   .frame-description-text h2 {
     max-width: 706px;
   }
@@ -835,10 +851,8 @@ button {
 
   .presentation-card {
     background-size: 60% 60%;
-    max-width: 290px;
-    max-height: 250px;
     padding: 25px;
-    align-self: baseline;
+    align-self:last baseline;
   }
 
   .card-content {
@@ -874,6 +888,7 @@ button {
   }
 
   .white-block {
+    margin: 0;
     max-width: 1024px;
     gap: 30px;
     padding: 40px 30px;
@@ -1042,7 +1057,7 @@ button {
   .frame {
     max-width: 767px;
     padding: 60px 20px;
-    gap: 20px;
+    gap: 40px;
   }
 
   .frame-description-text {
@@ -1059,7 +1074,8 @@ button {
     max-width: 400px;
   }
 
-  .presentation-block {
+  .grid {
+    display: flex;
     margin: 0;
     max-width: 767px;
     flex-direction: column;
@@ -1172,7 +1188,6 @@ button {
 
   .white-block {
     max-width: 700px;
-    margin: 30px auto 0px;
     gap: 20px;
     padding: 20px;
     border-radius: 30px;
