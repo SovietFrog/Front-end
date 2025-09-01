@@ -168,6 +168,7 @@ button {
 
 .right {
   display: flex;
+  align-content: space-between;
   align-items: center;
   gap: 60px;
 }
@@ -206,6 +207,10 @@ button {
   display: none;
 }
 
+.bot-container{
+  border: none;
+}
+
 .nav-container {
   max-width: 1240px;
   width: 100%;
@@ -217,13 +222,17 @@ button {
 
 .bot-header {
   width: 100%;
-  padding: 16px 0;
+  padding: 16px 0px;
   justify-content: space-between;
   gap: 10px;
   display: flex;
   overflow-x: overlay;
   scrollbar-width: thin;
   scrollbar-color: rgb(25, 245, 73) white;
+}
+
+.list-item{
+  padding: 0px 2px;
 }
 
 .bot-header a {
@@ -237,13 +246,13 @@ button {
 }
 
 .active-nav-link {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .main {
   max-width: 1440px;
   width: 100%;
-  padding: 136px 20px;
+  padding: 134px 20px;
   margin: auto;
 }
 
@@ -974,6 +983,7 @@ button {
 
   .sidebar-icon {
     display: block;
+    background: none;
   }
 
   .nav-container {
@@ -1114,7 +1124,6 @@ button {
   .tablet-partner-text {
     letter-spacing: 0px;
     max-width: 300px;
-    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -1197,7 +1206,6 @@ button {
 
   .purple-registry {
     max-width: 767px;
-    width: 100%;
     background: url(../Images/bgimg.svg),
       linear-gradient(69.47deg, #6260b7 10.09%, #9379cf 83.62%);
     background-position: top 40% left 30%, center;
@@ -1227,7 +1235,6 @@ button {
 
   .members-credit {
     max-width: 350px;
-    width: 100%;
     font-size: 12px;
   }
 
