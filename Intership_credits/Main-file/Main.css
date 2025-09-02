@@ -417,7 +417,6 @@ button {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin-top: 32px;
   gap: 30px;
   grid-area: partners;
 }
