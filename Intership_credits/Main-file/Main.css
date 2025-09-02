@@ -371,7 +371,7 @@ button {
 }
 
 .frame {
-  padding: 83px 79px;
+  padding: 83px 79px 40px;
   margin: auto;
 }
 
@@ -556,7 +556,7 @@ button {
 .examples {
   display: flex;
   width: 100%;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
   justify-content: space-between;
 }
@@ -582,7 +582,7 @@ button {
   gap: 40px;
 }
 
-.bottom-description h2 {
+.bottom-description{
   max-width: 1240px;
   width: 100%;
 }
