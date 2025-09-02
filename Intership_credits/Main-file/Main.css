@@ -375,7 +375,7 @@ button {
   "header header header"
   "paragraph paragraph card"
   "partners partners card";
-  row-gap: 50px;
+  gap: 50px 20px;
 }
 
 .frame-description-text {
@@ -763,27 +763,21 @@ button {
   }
 
   .frame-description-text{
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .frame-description-text h2 {
     max-width: 706px;
   }
 
-  .frame-description-text::before {
+  .frame-description-text::before{
     display: none;
   }
 
-  .frame-description p {
+
+  .frame-description {
     font-weight: 500;
     font-size: 16px;
   }
 
   .tablet-text {
     display: block;
-    margin-top: 12px;
     max-width: 600px;
   }
 
@@ -853,7 +847,7 @@ button {
   .presentation-card {
     background-size: 60% 60%;
     padding: 25px;
-    align-self:last baseline;
+    align-self: center;
   }
 
   .card-content {
@@ -1269,4 +1263,3 @@ button {
     width: 100%;
   }
 }
-
