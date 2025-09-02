@@ -212,7 +212,7 @@ button {
 }
 
 .nav-container {
-  max-width: 1246px;
+  max-width: 1240px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -229,10 +229,8 @@ button {
   overflow-x: overlay;
   scrollbar-width: thin;
   scrollbar-color: rgb(25, 245, 73) white;
-}
-
-.list-item{
-  padding: 0px 3px;
+  margin-left: -4px;
+  margin-right: -4px;
 }
 
 .search{
@@ -251,6 +249,7 @@ button {
 
 .active-nav-link {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  padding: 0px 4px;
 }
 
 .main {
