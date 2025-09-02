@@ -76,10 +76,11 @@ p {
 
 a {
   text-decoration: none;
+  line-height: 120%;
 }
 
 h1 {
-  margin-bottom: 8px;
+  line-height: 110%;
 }
 
 h2 {
@@ -137,13 +138,14 @@ button {
 
 .left {
   display: flex;
-  gap: 0px;
+  gap: 20px;
 }
 
 .tab {
+  margin-top: 4px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 
 .vertical-line {
@@ -167,6 +169,7 @@ button {
 }
 
 .right {
+  margin-top: 3px;
   display: flex;
   align-content: space-between;
   align-items: center;
@@ -179,7 +182,7 @@ button {
 
 .lomonosov {
   display: block;
-  padding: 7px 15px;
+  padding: 7px 12px;
   border: 1px solid transparent;
   border-radius: 23px;
   background: linear-gradient(#ffffff, #ffffff 0) padding-box,
@@ -216,15 +219,15 @@ button {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 45px;
   margin: auto;
 }
 
 .bot-header {
   width: 100%;
   padding: 16px 0px;
-  justify-content: space-between;
-  gap: 10px;
+  align-items: center;
+  gap: 42px;
   display: flex;
   overflow-x: overlay;
   scrollbar-width: thin;
@@ -234,7 +237,7 @@ button {
 }
 
 .search{
-  width: 18px;
+  width: 14px;
 }
 
 .bot-header a {
@@ -281,8 +284,7 @@ button {
 
 .about h1 {
   font-weight: 600;
-  font-size: 50px;
-  line-height: 110%;
+  font-size: 40px;
 }
 
 .small-text {
@@ -304,6 +306,11 @@ button {
   gap: 18px;
   font-weight: 500;
   font-size: 18px;
+  line-height: 120%;
+}
+
+.conditions{
+  font-weight: 18px;
   line-height: 120%;
 }
 
@@ -329,7 +336,7 @@ button {
 }
 
 .green-btn {
-  padding: 8px 21px;
+  padding: 11px 21px;
   background: linear-gradient(
     90deg,
     #16ff00 0%,
@@ -349,7 +356,7 @@ button {
 }
 
 .white-btn {
-  padding: 8px 11px;
+  padding: 11px 11px;
   background: rgba(255, 255, 255, 1);
 }
 
@@ -364,12 +371,13 @@ button {
 }
 
 .frame {
-  padding: 60px 78px;
+  padding: 83px 79px;
   margin: auto;
 }
 
 .grid{
   display: grid;
+  grid-template-columns: 1fr 1fr 506px;
   grid-template-areas: 
   "header header header"
   "paragraph paragraph card"
@@ -412,12 +420,12 @@ button {
 }
 
 .partners {
+
   display: flex;
   max-width: 600px;
   width: 100%;
-  justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 82px;
   grid-area: partners;
 }
 
@@ -437,6 +445,8 @@ button {
   background-color: rgb(238, 238, 238);
   border-radius: 50px;
 }
+
+
 
 .tablet-sign,
 .tablet-logo {
@@ -458,7 +468,7 @@ button {
 
 .mainp {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 120%;
   text-align: center;
 }
@@ -471,12 +481,13 @@ button {
 }
 
 .presentation-card {
-  margin-top: 48px;
+  margin-top: 50px;
+  margin-left: 10px;
   position: relative;
   background: url(../Images/Ellipse\ 1281.png) rgb(248, 248, 248);
   background-repeat: no-repeat;
   background-position: top right;
-  max-width: 506px;
+  max-width: 656px;
   width: 100%;
   border-radius: 30px;
   padding: 40px;
@@ -489,7 +500,7 @@ button {
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 24px;
+  gap: 16px;
 }
 
 .card-content h4 {
@@ -509,11 +520,11 @@ button {
 
 .card-bottom-content {
   display: flex;
-  gap: 20px;
+  gap: 44px;
 }
 
 .percent {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 40px;
   line-height: 110%;
   letter-spacing: 0px;
@@ -528,7 +539,7 @@ button {
 .white-block {
   display: flex;
   flex-direction: column;
-  margin: 50px auto 0px;
+  margin: 63px auto 0px;
   gap: 20px;
   border-radius: 30px;
   padding: 40px;
@@ -545,8 +556,9 @@ button {
 .examples {
   display: flex;
   width: 100%;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .service-pic {
@@ -557,7 +569,7 @@ button {
 }
 
 .example-text {
-  max-width: 200px;
+  max-width: 246px;
   font-weight: 500;
   font-size: 18px;
   line-height: 120%;
